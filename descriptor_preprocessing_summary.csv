@@ -1,0 +1,4 @@
+step,n_features_before,n_features_after,removed_features
+missing_ratio <= 0.20,10,10,
+std >= 0.01,10,10,
+correlation <= 0.95,10,9,HeavyAtomCount
