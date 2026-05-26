@@ -1,0 +1,6 @@
+model,features,k,balanced_accuracy_mean,roc_auc_mean,f1_mean
+svm_rbf_kbest,SelectKBest RDKit 2D descriptors,7,0.7982001633784688,0.8609372478154318,0.5224351418492421
+mlp_small_kbest,SelectKBest RDKit 2D descriptors,7,0.6455015223902765,0.844242499443028,0.43003100337189953
+svm_linear_kbest,SelectKBest RDKit 2D descriptors,7,0.7584980815407085,0.8350020793623288,0.44216696230929536
+logreg_l2_kbest,SelectKBest RDKit 2D descriptors,7,0.7633950293338614,0.8336666398494937,0.4511585703190663
+logreg_l1_kbest,SelectKBest RDKit 2D descriptors,7,0.7613849790826052,0.8336082877441393,0.4475029920299892
