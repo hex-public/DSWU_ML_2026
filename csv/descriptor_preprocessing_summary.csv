@@ -1,4 +1,4 @@
 step,n_features_before,n_features_after,removed_features
-missing_ratio <= 0.20,10,10,
-std >= 0.01,10,10,
-correlation <= 0.95,10,9,HeavyAtomCount
+missing_ratio <= 0.20,217,217,
+std >= 0.01,217,187,"EState_VSA11, SMR_VSA8, SlogP_VSA9, fr_HOCCN, fr_N_O, fr_Ndealkylation2, fr_amidine, fr_azide, fr_barbitur, fr_benzodiazepine, fr_diazo, fr_dihydropyridine, fr_guanido, fr_imidazole, fr_imide, fr_lactam, fr_morpholine, fr_oxazole, fr_phos_acid, fr_phos_ester, fr_piperdine, fr_piperzine, fr_priamide, fr_prisulfonamd, fr_sulfone, fr_tetrazole, fr_thiazole, fr_thiocyan, fr_thiophene, fr_urea"
+correlation <= 0.95,187,155,"MaxEStateIndex, HeavyAtomMolWt, ExactMolWt, NumValenceElectrons, MinAbsPartialCharge, Chi0, Chi0n, Chi0v, Chi1, Chi1n, Chi4n, Chi4v, LabuteASA, SlogP_VSA5, SlogP_VSA6, HeavyAtomCount, NumAromaticRings, NumHAcceptors, NumHDonors, NumHeteroatoms, Phi, MolMR, fr_COO, fr_COO2, fr_Nhpyrrole, fr_amide, fr_benzene, fr_isothiocyan, fr_ketone_Topliss, fr_nitrile, fr_nitro_arom, fr_phenol_noOrthoHbond"
